@@ -1,0 +1,21 @@
+[package]
+name = "pane"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.31", default-features = false, features = ["default_fonts", "glow"] }
+image = { version = "0.25", default-features = false, features = ["png", "jpeg"] }
+serde_json = "1"
+qrcode = { version = "0.14", default-features = false }
+
+[profile.release]
+opt-level = 3
+
+# Decoding a phone picture is heavy work: build the libraries fully optimised even in a
+# normal (debug) build, so each picture decodes in a few milliseconds instead of a few hundred.
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3

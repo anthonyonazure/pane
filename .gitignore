@@ -1,0 +1,5 @@
+# Build output (rebuilt by `cargo build`; about 1.7 GB)
+/target/
+# Test pictures the app saves with --screenshot
+/shots/
+.DS_Store

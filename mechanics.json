@@ -1,0 +1,421 @@
+{
+ "version": 1,
+ "values": [
+  {
+   "name": "actual size scale",
+   "group": "window",
+   "value": 0.77,
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "zoom step",
+   "group": "window",
+   "value": 0.1,
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "minimum scale",
+   "group": "window",
+   "value": 0.5,
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "maximum scale",
+   "group": "window",
+   "value": 1.5,
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "zoom in rounding",
+   "group": "window",
+   "value": "up",
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "zoom out rounding",
+   "group": "window",
+   "value": "down",
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "screen margin width",
+   "group": "window",
+   "value": 16,
+   "unit": "pt",
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "screen margin height beyond toolbar",
+   "group": "window",
+   "value": 8,
+   "unit": "pt",
+   "source": "function 0xaff30 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "zoom buttons disabled at limit",
+   "group": "window",
+   "value": true,
+   "source": "function 0x1d134 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "rotation keeps scale",
+   "group": "window",
+   "value": true,
+   "source": "function 0x96544 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "full screen allowed",
+   "group": "window",
+   "value": false,
+   "source": "function 0x100004750 (main program)"
+  },
+  {
+   "name": "controls auto-hide delay",
+   "group": "controls bar",
+   "value": 2.0,
+   "unit": "s",
+   "source": "function 0xa7554 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "controls spring response",
+   "group": "controls bar",
+   "value": 0.28,
+   "unit": "s",
+   "source": "function 0xa7330 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "controls spring damping",
+   "group": "controls bar",
+   "value": 1.0,
+   "source": "function 0xa7330 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "home shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+1",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "app switcher shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+2",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "spotlight shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+3",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "control center shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+4",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "zoom in shortcut",
+   "group": "shortcuts",
+   "value": "Cmd++ / Cmd+=",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "zoom out shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+-",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "actual size shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+0",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "phone size toggle shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+9",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "toggle rotation shortcut",
+   "group": "shortcuts",
+   "value": "Cmd+8",
+   "source": "function 0x4a020 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "android points per pixel rule",
+   "group": "window",
+   "value": "pixels * 160 / density",
+   "estimated": true
+  },
+  {
+   "name": "toolbar height",
+   "group": "window",
+   "value": 40,
+   "unit": "pt",
+   "estimated": true
+  },
+  {
+   "name": "menu bar height",
+   "group": "window",
+   "value": 25,
+   "unit": "pt",
+   "estimated": true
+  },
+  {
+   "name": "phone corner radius",
+   "group": "window",
+   "value": 44,
+   "unit": "pt",
+   "estimated": true
+  },
+  {
+   "name": "short connection time limit",
+   "group": "connecting",
+   "value": 5,
+   "unit": "s",
+   "source": "function 0x127A44 (ScreenSharingKit TimeoutPrimitives.defaultForBuildConfiguration)"
+  },
+  {
+   "name": "long connection time limit",
+   "group": "connecting",
+   "value": 10,
+   "unit": "s",
+   "source": "function 0x127A44 (ScreenSharingKit TimeoutPrimitives.defaultForBuildConfiguration)"
+  },
+  {
+   "name": "very long connection time limit",
+   "group": "connecting",
+   "value": 60,
+   "unit": "s",
+   "source": "function 0x127A44 (ScreenSharingKit TimeoutPrimitives.defaultForBuildConfiguration)"
+  },
+  {
+   "name": "connection step uses long limit",
+   "group": "connecting",
+   "value": true,
+   "source": "function 0x5f2ac (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "try again after time-out",
+   "group": "connecting",
+   "value": true,
+   "source": "function 0x5fcbc (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "adb pair uses very long limit",
+   "group": "connecting",
+   "value": "60 s",
+   "estimated": true
+  },
+  {
+   "name": "closing window quits app",
+   "group": "app",
+   "value": true,
+   "source": "function 0x100006808 (main program)"
+  },
+  {
+   "name": "dock click reopens window",
+   "group": "app",
+   "value": true,
+   "source": "function 0x1000067ac (main program)"
+  },
+  {
+   "name": "fresh check when app becomes active",
+   "group": "app",
+   "value": true,
+   "source": "function 0x100007ad8 (main program)"
+  },
+  {
+   "name": "window floats above others",
+   "group": "app",
+   "value": false,
+   "source": "windowLevel read only (ScreenContinuityUI)"
+  },
+  {
+   "name": "phone scan interval",
+   "group": "app",
+   "value": 2,
+   "unit": "s",
+   "estimated": true
+  },
+  {
+   "name": "error action: not set up",
+   "group": "pairing",
+   "value": "Enable iPhone",
+   "source": "function 0x49260 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "error action: retry",
+   "group": "pairing",
+   "value": "Try Again",
+   "source": "function 0x49260 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "error action: settings",
+   "group": "pairing",
+   "value": "Settings",
+   "source": "function 0x49260 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "button disabled while offline",
+   "group": "pairing",
+   "value": true,
+   "source": "function 0xcfd98 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "button re-enabled after other failures",
+   "group": "pairing",
+   "value": true,
+   "source": "function 0xcfd98 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "cancelled pairing shows no error",
+   "group": "pairing",
+   "value": true,
+   "source": "function 0xcfd98 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "connect address kept listed after last seen",
+   "group": "connecting",
+   "value": 10,
+   "unit": "s",
+   "source": "function 0x127A44 (ScreenSharingKit TimeoutPrimitives long, applied as sticky time)"
+  },
+  {
+   "name": "pairing box kept listed after last seen",
+   "group": "connecting",
+   "value": 5,
+   "unit": "s",
+   "source": "function 0x127A44 (ScreenSharingKit TimeoutPrimitives short, applied as sticky time)"
+  },
+  {
+   "name": "error to error delay",
+   "group": "messages",
+   "value": 0.8,
+   "unit": "s",
+   "source": "function 0x1000089dc (main program)"
+  },
+  {
+   "name": "loading complete delay",
+   "group": "messages",
+   "value": 0.2,
+   "unit": "s",
+   "source": "function 0x1000089dc (main program)"
+  },
+  {
+   "name": "retry settling delay",
+   "group": "messages",
+   "value": 0.75,
+   "unit": "s",
+   "source": "function 0x1000089dc (main program)"
+  },
+  {
+   "name": "ui testing delays",
+   "group": "messages",
+   "value": 0.1,
+   "unit": "s",
+   "source": "function 0x100001b0c (main program)"
+  },
+  {
+   "name": "screen picture format",
+   "group": "android speed",
+   "value": "JPEG, then PNG, then raw",
+   "estimated": true
+  },
+  {
+   "name": "picture fetches at once",
+   "group": "android speed",
+   "value": 4,
+   "estimated": true
+  },
+  {
+   "name": "finger down on mouse press",
+   "group": "touch",
+   "value": true,
+   "source": "function 0x4c118 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "finger follows every drag",
+   "group": "touch",
+   "value": true,
+   "source": "function 0x4c3c0 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "finger up when no buttons pressed",
+   "group": "touch",
+   "value": true,
+   "source": "function 0x4bb00 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "touch move spacing",
+   "group": "touch",
+   "value": 40,
+   "unit": "ms",
+   "estimated": true
+  },
+  {
+   "name": "live touch minimum Android SDK",
+   "group": "touch",
+   "value": 29,
+   "estimated": true
+  },
+  {
+   "name": "test mode switch",
+   "group": "test mode",
+   "value": "uiTesting=on",
+   "source": "function 0x100001b0c (main program)"
+  },
+  {
+   "name": "test phone width",
+   "group": "test mode",
+   "value": 430,
+   "unit": "pt",
+   "source": "function 0x100001efc (main program)"
+  },
+  {
+   "name": "test phone height",
+   "group": "test mode",
+   "value": 932,
+   "unit": "pt",
+   "source": "function 0x100001efc (main program)"
+  },
+  {
+   "name": "test phone scale",
+   "group": "test mode",
+   "value": 1.0,
+   "source": "function 0x100001efc (main program)"
+  },
+  {
+   "name": "each mouse event handled separately",
+   "group": "touch",
+   "value": true,
+   "source": "functions 0x4c118 / 0x4c3c0 / 0x4bb00 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "skip exact repeat mouse event",
+   "group": "touch",
+   "value": true,
+   "source": "function 0x4b99c (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "failed gesture cancels touch",
+   "group": "touch",
+   "value": true,
+   "source": "function 0xdba0c (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "right release ends touch at last position",
+   "group": "touch",
+   "value": true,
+   "source": "function 0x4c2f0 (ScreenContinuityUI arm64e)"
+  },
+  {
+   "name": "lone right click",
+   "group": "touch",
+   "value": "Back (Android mapping)",
+   "estimated": true
+  }
+ ]
+}
